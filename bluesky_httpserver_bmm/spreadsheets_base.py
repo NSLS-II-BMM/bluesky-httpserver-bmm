@@ -326,7 +326,7 @@ class BMMMacroBuilder:
 
     def read_spreadsheet(self):
         """Slurp up the content of the spreadsheet and write the default control file"""
-        print("Reading spreadsheet: %s" % self.source)
+        print("Reading spreadsheet ...")
         count = 0
         self.offset = 0
         isok, explanation = True, ""
