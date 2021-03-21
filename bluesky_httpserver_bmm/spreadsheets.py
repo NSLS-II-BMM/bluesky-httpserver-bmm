@@ -13,7 +13,7 @@ def spreadsheet_to_plan_list(*, spreadsheet_file, file_name, data_type, user, **
     file_name : str
         The name of uploaded spreadsheet file.
     data_type : str, None
-        Data type, such as ``excel``. May be used to select proper processing function.
+        Data type. Currently supported data types: ``wheel_xafs``.
     user : str
         User name: may be used as part of plan parameters.
 

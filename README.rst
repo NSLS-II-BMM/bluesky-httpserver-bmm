@@ -35,3 +35,8 @@ or set the environment variable **BLUESKY_HTTPSERVER_CUSTOM_MODULE** before star
 
   export BLUESKY_HTTPSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm
   uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
+
+Included custom functions:
+
+- **spreadsheet_to_plan_list"** for *.xlsx*, *.xlsm*, *.xltx* and *.xltm* files. Supports
+**data_type** = *wheel_xafs*.
