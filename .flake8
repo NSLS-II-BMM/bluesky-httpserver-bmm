@@ -5,6 +5,6 @@ exclude =
     build,
     dist,
     versioneer.py,
-    bluesky_queueserver/_version.py,
+    bluesky_httpserver_bmm/_version.py,
     docs/source/conf.py
 max-line-length = 115

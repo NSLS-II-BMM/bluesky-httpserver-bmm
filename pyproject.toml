@@ -20,5 +20,6 @@ exclude = '''
     | docs
   )/
   | versioneer.py
+  | bluesky_httpserver_bmm/_version.py
 )
 '''
