@@ -1,6 +1,7 @@
 from .spreadsheets_wheel_xafs import WheelMacroBuilder
 
 
+# NOTE: don't change the name of the function!!!
 def spreadsheet_to_plan_list(*, spreadsheet_file, file_name, data_type, user, **kwargs):
     """
     Convert spreadsheet into a list of plans that could be added to the queue.

@@ -12,7 +12,9 @@ exclude = '''
     | \.mypy_cache
     | \.tox
     | \.venv
+    | \.idea
     | \.pytest_cache
+    | \__pycache__
     | _build
     | buck-out
     | build
