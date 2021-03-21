@@ -17,4 +17,21 @@ Bluesky HTTP Server: custom processing modules for BMM beamline.
 Features
 --------
 
-* TODO
+The repository contains modules with custom request processing code for Bluesky HTTP Server.
+
+Install the package in the desired conda environment as::
+
+  pip install .
+
+For develop installation use::
+
+  pip install -e .
+
+Start Bluesky HTTP Server as::
+
+  BLUESKY_HTTPSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
+
+or set the environment variable **BLUESKY_HTTPSERVER_CUSTOM_MODULE** before starting the server::
+
+  export BLUESKY_HTTPSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm
+  uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
