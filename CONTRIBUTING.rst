@@ -59,7 +59,7 @@ Ready to contribute? Here's how to set up `bluesky-httpserver-bmm` for local dev
 1. Fork the `bluesky-httpserver-bmm` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/bluesky-httpserver-bmm.git
+    $ git clone git@github.com:NSLS-II-BMM/bluesky-httpserver-bmm.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
@@ -98,7 +98,7 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.3, 3.4, 3.5 and for PyPy. Check
+3. The pull request should work for Python 3.7, 3.8, 3.9 and for PyPy. Check
    https://travis-ci.org/dmgav/bluesky-httpserver-bmm/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
