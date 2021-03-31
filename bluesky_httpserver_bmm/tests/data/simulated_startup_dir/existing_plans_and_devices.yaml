@@ -282,9 +282,17 @@ existing_plans:
       annotation: ''
       annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
         00 2e
-  set_slot:
+  shb_close_plan:
     description: null
-    name: set_slot
+    name: shb_close_plan
+    parameters: []
+    returns:
+      annotation: ''
+      annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
+        00 2e
+  slot:
+    description: null
+    name: slot
     parameters:
     - annotation: ''
       annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
@@ -295,25 +303,7 @@ existing_plans:
       kind:
         name: POSITIONAL_OR_KEYWORD
         value: 1
-      name: self
-    - annotation: ''
-      annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
-        00 2e
-      default: ''
-      default_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71 00
-        2e
-      kind:
-        name: POSITIONAL_OR_KEYWORD
-        value: 1
       name: n
-    returns:
-      annotation: ''
-      annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
-        00 2e
-  shb_close_plan:
-    description: null
-    name: shb_close_plan
-    parameters: []
     returns:
       annotation: ''
       annotation_pickled: 80 03 63 69 6e 73 70 65 63 74 0a 5f 65 6d 70 74 79 0a 71
