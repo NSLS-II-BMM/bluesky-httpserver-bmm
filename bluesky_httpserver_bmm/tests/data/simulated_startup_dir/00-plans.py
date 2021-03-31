@@ -33,5 +33,5 @@ def shb_close_plan():
     yield from count([det1, det2])
 
 
-def set_slot(self, n):
+def slot(n):
     yield from count([det1])
