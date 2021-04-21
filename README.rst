@@ -29,11 +29,11 @@ For develop installation use::
 
 Start Bluesky HTTP Server as::
 
-  BLUESKY_HTTPSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
+  QSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
 
 or set the environment variable **BLUESKY_HTTPSERVER_CUSTOM_MODULE** before starting the server::
 
-  export BLUESKY_HTTPSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm
+  export QSERVER_CUSTOM_MODULE=bluesky-httpserver-bmm
   uvicorn bluesky_queueserver.server.server:app --host localhost --port 60610
 
 Included custom functions:
